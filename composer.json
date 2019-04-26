@@ -5,7 +5,7 @@
     "require": {
         "php": ">= 7.0",
         "mrlaozhou/laravel-yar": "*",
-        "mrlaozhou/laravel-yac": "*"
+        "mrlaozhou/laravel-yc": "*"
     },
     "authors": [
         {
