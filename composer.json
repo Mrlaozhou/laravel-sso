@@ -4,8 +4,8 @@
     "keywords": ["sso", "laravel", "mrlaozhou"],
     "require": {
         "php": ">= 7.0",
-        "mrlaozhou/laravel-yar": "*",
-        "mrlaozhou/laravel-yc": "*"
+        "mrlaozhou/laravel-yar": "~1.1",
+        "mrlaozhou/laravel-yc": "~1.1"
     },
     "authors": [
         {

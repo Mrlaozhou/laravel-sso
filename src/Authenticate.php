@@ -44,6 +44,10 @@ trait Authenticate
             } else {
                 $openid = $payload['openID'];
             }
+            //  授权
+            if( config('laravel-sso.customAuthorizeHandler') ) {
+
+            }
             if( $this->localLoginByOpenID($openid) ) {
                 //  刷新ticket有效期
 //                $this->refreshRemoteTicketExpire();
